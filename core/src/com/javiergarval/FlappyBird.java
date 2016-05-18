@@ -2,7 +2,7 @@
 Flappy Bird is a game developed by Dong Nguyen in 2013.
 This app is a clon of it.
 
-It's been developed by Javier Garval & Angela Sanchez for the ADS class in 2016.
+It's been developed by Javier Garval for the ADS class in 2016.
 Hope you like it!
  */
 
@@ -59,13 +59,13 @@ public class FlappyBird extends ApplicationAdapter {
     //sets the picture of the bottom tube "bottomtube.png".
 	Texture bottomTube;
     //sets the distance between tubes.
-	float gap = 400;
+	float gap = 450;
     //sets the maximum distance off of the tube.
 	float maxTubeOffset;
     //gives a random number.
 	Random randomGenerator;
     //sets the speed of appearance of a tube.
-	float tubeVelocity = 4;
+	float tubeVelocity = 6;
     //sets the number of tubes viewed in the screen.
 	int numberOfTubes = 4;
     //sets the array of tubes.
